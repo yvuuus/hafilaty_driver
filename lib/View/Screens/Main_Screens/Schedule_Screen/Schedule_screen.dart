@@ -22,6 +22,10 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Schedule'),
+        backgroundColor: Colors.purple.shade600,
+      ),
       body: SafeArea(
         child: Container(
           color: Colors.white,
@@ -29,17 +33,6 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
           height: size.height,
           child: Column(
             children: [
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Text(
-                  "Schedule",
-                  style: TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black,
-                  ),
-                ),
-              ),
               Expanded(
                 child: ListView.separated(
                   itemCount: schedule.length,
