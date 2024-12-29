@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "59544886386",
+    "project_id": "hafilaty-driver",
+    "storage_bucket": "hafilaty-driver.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59544886386:android:a758a09b88637c2882f6eb",
+        "android_client_info": {
+          "package_name": "dev.hyderali.trippo_driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdWMm67xDURyeacSjo1g-zOT9HNnX83lI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
