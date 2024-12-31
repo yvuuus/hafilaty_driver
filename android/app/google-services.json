@@ -1,26 +1,65 @@
 {
   "project_info": {
-    "project_number": "59544886386",
-    "project_id": "hafilaty-driver",
-    "storage_bucket": "hafilaty-driver.firebasestorage.app"
+    "project_number": "826481171173",
+    "project_id": "hafilaty-caf68",
+    "storage_bucket": "hafilaty-caf68.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:59544886386:android:a758a09b88637c2882f6eb",
+        "mobilesdk_app_id": "1:826481171173:android:4c3385f6d9d95e28e0d20c",
         "android_client_info": {
-          "package_name": "dev.hyderali.trippo_driver"
+          "package_name": "com.egoncastlr.bus_tracking_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "826481171173-va80lolmtflpu0akcmn545tq0qpakpln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCdWMm67xDURyeacSjo1g-zOT9HNnX83lI"
+          "current_key": "AIzaSyDULR1PxZjlXxdnV4-Btx_ZF3WFf1ocsYw"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826481171173-va80lolmtflpu0akcmn545tq0qpakpln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826481171173:android:2ff60595cb50ab86e0d20c",
+        "android_client_info": {
+          "package_name": "driver.hafilaty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826481171173-va80lolmtflpu0akcmn545tq0qpakpln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDULR1PxZjlXxdnV4-Btx_ZF3WFf1ocsYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826481171173-va80lolmtflpu0akcmn545tq0qpakpln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

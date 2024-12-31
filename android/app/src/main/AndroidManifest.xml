@@ -3,12 +3,12 @@
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
    <application
-        android:label="Trippo (Driver)"
+        android:label="hafilaty (Driver)"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
 
     <meta-data android:name="com.google.android.geo.API_KEY"
-                android:value="AIzaSyAnsK0I2lw7YP3qhUthMBtlsiJ31WVkPrY"/>
+                android:value="AIzaSyBw9HjjH6wO8RUsgCgCer2GjtsFGLAdSCo"/>
 
     <meta-data
     android:name="com.google.firebase.messaging.default_notification_channel_id"
@@ -41,4 +41,16 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+    <!-- Required to query activities that can process text, see:
+         https://developer.android.com/training/package-visibility and
+         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+
+         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+    </queries>
+
 </manifest>
