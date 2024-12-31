@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hafilaty_driver/View/Screens/Main_Screens/History_Screen/history_screen.dart';
-import 'package:hafilaty_driver/View/Screens/Main_Screens/Home_Screen/home_screen.dart';
+import 'package:hafilaty_driver/View/Screens/Main_Screens/inbox_Screen/inbox_screen.dart';
+import 'package:hafilaty_driver/View/Screens/Main_Screens/Map_Screen/map_screen.dart';
 import 'package:hafilaty_driver/View/Screens/Main_Screens/Schedule_Screen/Schedule_screen.dart';
 import 'package:hafilaty_driver/View/Screens/Main_Screens/Profile_Screen/profile_screen.dart';
 import 'package:hafilaty_driver/View/Screens/Nav_Screens/navigation_providers.dart';

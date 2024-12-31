@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hafilaty_driver/Container/utils/error_notification.dart';
-import 'package:hafilaty_driver/View/Screens/Main_Screens/Home_Screen/home_logics.dart';
+import 'package:hafilaty_driver/View/Screens/Main_Screens/Map_Screen/map_logics.dart';
 
 
 class MessagingService {

@@ -5,8 +5,8 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:hafilaty_driver/Container/Repositories/firestore_repo.dart';
 import 'package:hafilaty_driver/Container/utils/firebase_messaging.dart';
-import 'package:hafilaty_driver/View/Screens/Main_Screens/Home_Screen/home_logics.dart';
-import 'package:hafilaty_driver/View/Screens/Main_Screens/Home_Screen/home_providers.dart';
+import 'package:hafilaty_driver/View/Screens/Main_Screens/Map_Screen/map_logics.dart';
+import 'package:hafilaty_driver/View/Screens/Main_Screens/Map_Screen/map_providers.dart';
 import '../../../../Container/utils/set_blackmap.dart';
 import 'package:geoflutterfire2/geoflutterfire2.dart';
 
