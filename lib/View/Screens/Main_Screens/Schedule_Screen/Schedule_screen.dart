@@ -29,8 +29,8 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
           height: size.height,
           child: Column(
             children: [
-              Padding(
-                padding: const EdgeInsets.all(16.0),
+              const Padding(
+                padding: EdgeInsets.all(16.0),
                 child: Text(
                   "Schedule",
                   style: TextStyle(

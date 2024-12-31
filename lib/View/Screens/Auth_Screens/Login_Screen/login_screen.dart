@@ -137,8 +137,8 @@ class _LoginScreenState extends State<LoginScreen> {
       children: [
         Container(
           padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(
-            color: const Color.fromARGB(255, 255, 255, 255),
+          decoration: const BoxDecoration(
+            color: Color.fromARGB(255, 255, 255, 255),
             shape: BoxShape.circle,
           ),
           child: Icon(

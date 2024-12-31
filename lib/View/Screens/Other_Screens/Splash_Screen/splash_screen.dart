@@ -23,11 +23,11 @@ class _SplashScreenState extends State<SplashScreen> {
         children: [
           // Background gradient
           Container(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  const Color.fromARGB(255, 199, 97, 219),
-                  const Color.fromARGB(255, 56, 53, 216),
+                  Color.fromARGB(255, 199, 97, 219),
+                  Color.fromARGB(255, 56, 53, 216),
                 ],
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
