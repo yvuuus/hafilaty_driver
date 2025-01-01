@@ -49,6 +49,10 @@ dependencies:
   geoflutterfire2: ^2.3.15
   firebase_messaging: ^14.6.7
   flutter_local_notifications: ^15.1.1
+  flutter_geofire: ^2.0.4
+  location: ^7.0.1
+  smooth_star_rating_nsafe: ^1.0.0+1
+  animated_text_kit: ^4.2.2
 
 dev_dependencies:
   flutter_test:
